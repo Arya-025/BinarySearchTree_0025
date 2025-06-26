@@ -42,7 +42,13 @@ public:
         Node *currentNode = nullptr;
         Search(X, parent, currentNode);
 
+        if (parent == nullptr)
+        {
+            ROOT = newNode;
+
+            return;
+        }
+
         
     }
 };
-
