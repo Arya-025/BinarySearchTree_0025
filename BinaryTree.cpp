@@ -49,6 +49,13 @@ public:
             return;
         }
 
-        
+        if (X < parent->info)
+        {
+            parent->leftchild = newNode;
+
+            return;
+        }
+
+       
     }
 };
