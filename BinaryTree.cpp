@@ -33,7 +33,10 @@ public:
         // step 1: Allocate memory for the new node
         Node *newNode = new Node();
         // step 2: Assign value to the data field of new node
-       
+        newNode->info = X;
+
+        newNode->leftchild = nullptr;
+        newNode->rightchild = nullptr;
+
     }
 };
-
